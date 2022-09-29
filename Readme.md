@@ -19,7 +19,7 @@ cd to the devops folder at the repository main level, open the terminal and type
 	docker compose -f docker-compose.sqlserver.yml up -d
 ```
 
-The sqlserver in the file name is because of the namespacing. Normally I set up my projects
+The ""sqlserver"" in the file name is there because of the namespacing. Normally I set up my projects
 so that they can be run entirely locally, which means spinning up many, many infrastructural pieces.
 I put them all into their own separate docker-compose files and put into a devops folder, like the one
 included.
