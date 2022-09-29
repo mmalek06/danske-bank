@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DanskeBank.Application", "DanskeBank.Application.csproj", "{EEDF533B-E86D-43BA-A46A-62EFB501B3B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DanskeBank.Tests", "..\DanskeBank.Tests\DanskeBank.Tests.csproj", "{9C505271-FEC7-4D8E-BD8C-ABDDC40AC54A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DanskeBank.Infrastructure", "..\DanskeBank.Infrastructure\DanskeBank.Infrastructure.csproj", "{4F2F1F3B-C2F1-42F7-AFAD-A9F9B9CEE905}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "devops", "devops", "{D400B40A-0A5E-4476-A889-B2BD711F0D88}"
+	ProjectSection(SolutionItems) = preProject
+		..\devops\docker-compose.sqlserver.yml = ..\devops\docker-compose.sqlserver.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{91303576-610A-4148-ABB4-0A1718E6D8FA}"
+	ProjectSection(SolutionItems) = preProject
+		..\Readme.md = ..\Readme.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DanskeBank.Domain", "..\DanskeBank.Domain\DanskeBank.Domain.csproj", "{618E5603-EFE1-4E38-A604-A1050E301BE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEDF533B-E86D-43BA-A46A-62EFB501B3B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDF533B-E86D-43BA-A46A-62EFB501B3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDF533B-E86D-43BA-A46A-62EFB501B3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDF533B-E86D-43BA-A46A-62EFB501B3B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C505271-FEC7-4D8E-BD8C-ABDDC40AC54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C505271-FEC7-4D8E-BD8C-ABDDC40AC54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C505271-FEC7-4D8E-BD8C-ABDDC40AC54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C505271-FEC7-4D8E-BD8C-ABDDC40AC54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2F1F3B-C2F1-42F7-AFAD-A9F9B9CEE905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2F1F3B-C2F1-42F7-AFAD-A9F9B9CEE905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2F1F3B-C2F1-42F7-AFAD-A9F9B9CEE905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2F1F3B-C2F1-42F7-AFAD-A9F9B9CEE905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{618E5603-EFE1-4E38-A604-A1050E301BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618E5603-EFE1-4E38-A604-A1050E301BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{618E5603-EFE1-4E38-A604-A1050E301BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{618E5603-EFE1-4E38-A604-A1050E301BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B9473AB-BCCD-446B-B376-60C3D6386E9F}
+	EndGlobalSection
+EndGlobal
